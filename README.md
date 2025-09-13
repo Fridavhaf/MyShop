@@ -1,8 +1,8 @@
-# MyShop – ASP.NET Core MVC Project
+# MyShop: MVC Project using the ASP.NET Core
 
 ## Project Overview
-This project is a simple online shop developed as part of the **ITPE3200 Web Applications** course.  
-It demonstrates core ASP.NET Core MVC concepts and best practices for structuring a maintainable web application.
+This project is a simple online shop developed as part of the ITPE3200 Web Applications course.
+It demonstrates core ASP.NET Core MVC concepts, best practices for structuring a maintainable web application, and basic database integration with SQLite using Entity Framework Core.
 
 The project includes:
 - **Table View:** Displays products in a tabular format.
@@ -12,8 +12,9 @@ The project includes:
 - **ViewModel:** `ItemsViewModel` to pass data from controllers to views cleanly.
 
 ## Features
-- Responsive layout using **Bootstrap**.
+- Responsive layout using Bootstrap.
 - Dynamic carousel on the Home Page.
 - Separation of concerns with controllers, models, views, and partial views.
 - Use of Razor syntax for rendering dynamic content.
-- Static files (CSS, JS, images) served correctly from `wwwroot`.
+- Database integration: Uses SQLite with EF Core for data persistence. Mock data in ItemController replaced with real database queries.
+- Verified database setup and data insertion using DB Browser for SQLite.
