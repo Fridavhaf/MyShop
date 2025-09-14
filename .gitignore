@@ -1,11 +1,10 @@
-
 **/bin/
 **/obj/
-**/node_modules
-**/dist
-**/build
-**/Logs
-**/APIlogs
+**/node_modules/
+**/dist/
+**/build/
+**/Logs/
+**/APIlogs/
 
 .vs/
 *.suo
@@ -17,7 +16,6 @@
 *.vsdproj.user
 .DS_Store
 
-
 packages/
 *.nupkg
 .cache/
@@ -26,7 +24,6 @@ project.lock.json
 TestResults/
 *.tmp
 *~
-
 
 appsettings.Development.json
 appsettings.Staging.json
